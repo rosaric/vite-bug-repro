@@ -8,5 +8,5 @@ const url = URL.createObjectURL(blob)
 console.info(url)
 
 ;(async () => {
-  await import(/* @vite-ignore */url) // <== Vite modify this URL, check browser console for detail
+  await import(/* @vite-ignore */url) // <== Vite modifies this URL. Check browser console for detail.
 })()
